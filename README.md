@@ -11,10 +11,10 @@
 * Categorical Nominal
     * No ranked order
 
-* Continuous Data
+* Quantitative Continuous Data
     * Quantitative values can be split
 
-* Discrete Data
+* Quantitative Discrete Data
     * Countable values 
 
 ### Summary Statistics
