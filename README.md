@@ -153,3 +153,10 @@ function that uses a keyword and index to look up a value in table
 =vlookup(cell,all column , column to return,false)
 =vlookup(cell,all column , column to return,false) # item not in list return error 
 ```
+
+### Visualization
+
+```
+pie chart is used to illustrate proportionality
+bar chart compare category values
+```
