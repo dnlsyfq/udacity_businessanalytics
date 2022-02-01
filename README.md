@@ -1,5 +1,30 @@
 ### Data Types
 
+Categorical vs Quantitative
+
+Quantitative
+* Continuous
+* Discrete
+* 4 main aspect
+    1. measure of center
+        * means
+        * medians
+        * modes
+    2. measure of spread
+        * range
+        * interquartile range
+        * standard deviation
+        * variance
+    3. shape of distribution
+        * right skewed : use 5 no. summary
+        * left skewed : use 5 no. summary
+        * symmetric : use mean and std
+    4. outliers
+
+Categorical
+* Ordinal
+* Nominal
+
 * Quantitative
     * Numeric values to perform mathematical operations
 
@@ -43,6 +68,7 @@
 
 Here P stands for probability, while the parentheses encompass the statement for which we would like to find the probability. Since X represents the amount of time spent on the website, this notation represents the probability the amount of time on the website is greater than 20.
 
+<<<<<<< HEAD
 ### Function
 
 ```
@@ -59,7 +85,42 @@ Here P stands for probability, while the parentheses encompass the statement for
 =proper()
 =upper()
 ```
+=======
 
+###  Statistics
 
+```
+Population - our entire group of interest.
+Parameter - numeric summary about a population
+Sample - a subset of the population
+Statistic numeric summary about a sample
+```
 
+Descriptive Statistics
+* describing collected data 
+* measures discussed throughout this lesson: measures of center, measures of spread, the shape of our distribution, and outliers. 
+```
+population = 100,000 students
+sample = 5,000 students responded
+statistics = 73% said yes
+parameter = proportion of all 100,000 students drink coffee
+```
+
+ 
+Inferential Statistics
+* describing collected data to draw conclusions about larger population
+* Performing inferential statistics well requires that we take a sample that accurately represents our population of interest.
+```
+use the sample and draw conclusions
+
+>>>>>>> b97872420146480c9d0319414a5df6b827ea2655
+
+```
     
+    
+### Excel Shortcut
+
+Ctrl + Z : Undo
+Ctrl + Y : Redo
+
+Range: A group of cells selected or addressed together. It is defined by the cells in the upper left and lower right corners of the range.
