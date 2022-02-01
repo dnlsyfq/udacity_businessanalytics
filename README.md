@@ -68,13 +68,14 @@ Categorical
 
 Here P stands for probability, while the parentheses encompass the statement for which we would like to find the probability. Since X represents the amount of time spent on the website, this notation represents the probability the amount of time on the website is greater than 20.
 
-<<<<<<< HEAD
+
 ### Function
 
 ```
 =sum()
 =average()
 =trim()
+=stdev()
 =SUBSTITUTE({text}, {old_text}, {new_text})
 =FIND() # EXTRACT
 =LEFT()  # EXTRACT
@@ -113,8 +114,6 @@ Inferential Statistics
 ```
 use the sample and draw conclusions
 
->>>>>>> b97872420146480c9d0319414a5df6b827ea2655
-
 ```
     
     
@@ -124,3 +123,33 @@ Ctrl + Z : Undo
 Ctrl + Y : Redo
 
 Range: A group of cells selected or addressed together. It is defined by the cells in the upper left and lower right corners of the range.
+
+### Excel IF 
+
+```
+=IF(CONDITION,VALUE IF TRUE, VALUE IF FALSE)
+=IF(AND({condition1}, {condition2}), ...)
+=IF(OR({condition1}, {condition2}), ...)
+=IF(OR(MAX(B2:D2)>10,E2>20),"Special Order","No")
+```
+
+### Excel Conditional Aggregation Function
+function that operates across a group of data with logical conditions
+```
+=COUNTIF(<COLUMN>,"=Pitcher")
+=COUNTIF(<COLUMN>,">100000")
+=SUMIF(<COLUMN>,">100000")
+```
+
+### Named Ranges
+```
+Formula > Define Name 
+Formula > Create from Selection
+```
+
+### VLookup function
+function that uses a keyword and index to look up a value in table
+```
+=vlookup(cell,all column , column to return,false)
+=vlookup(cell,all column , column to return,false) # item not in list return error 
+```
