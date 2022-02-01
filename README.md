@@ -43,7 +43,22 @@
 
 Here P stands for probability, while the parentheses encompass the statement for which we would like to find the probability. Since X represents the amount of time spent on the website, this notation represents the probability the amount of time on the website is greater than 20.
 
+### Function
 
+```
+=sum()
+=average()
+=trim()
+=SUBSTITUTE({text}, {old_text}, {new_text})
+=FIND() # EXTRACT
+=LEFT()  # EXTRACT
+=RIGHT() # EXTRACT
+=MID(text, start_num, num_chars) # EXTRACT
+=FORMULATEXT()
+=concatenate()
+=proper()
+=upper()
+```
 
 
 
